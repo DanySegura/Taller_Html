@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Verano</title>
+    <link rel="stylesheet" href="Contactos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="page">
+     <div class="container">
+        <main class="form">
+           <h1 class="form__title">Formulario de Contacto</h1>
+
+           <nav class="navegacion">
+            <ul class="nav-list">
+                <li><a class="nav-link" href="./index.html"><i class="fa-solid fa-user"></i> Sobre Mi</a></li>
+                <li><a class="nav-link" href="./Proyectos.html"><i class="fa-solid fa-diagram-project"></i> Proyectos</a></li>
+                <li><a class="nav-link" href="./Contactos.html"><i class="fa-solid fa-envelope"></i> Contactos</a></li>
+            </ul>
+        </nav>
+
+           <form class="form__container" novalidate>
+            <div class="form__group">
+                <input type="text" id="nombre" name="nombre" class="form__input"
+                placeholder="Ingrese su nombre" required minlength="3">
+                <label for="nombre" class="form__label">Nombre</label>
+            </div>
+            <div class="form__group">
+                <input type="email" id="correo" name="correo" class="form__input"
+                placeholder="Ingrese su correo" required>
+                <label for="correo" class="form__label">Correo</label>
+            </div>
+            <div class="form__group">
+                <input type="password" id="clave" name="clave" class="form__input"
+                placeholder="Ingrese su contraseña" required minlength="6">
+                <label for="clave" class="form__label">Contraseña</label>
+            </div>
+            <button type="submit" class="form__button">Enviar</button>
+           </form>
+            </section>
+        </main>
+    </div>
+  </div>
+</body>
+</html>
